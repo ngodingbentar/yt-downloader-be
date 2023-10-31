@@ -3,9 +3,8 @@
   "type": "module",
   "version": "1.0.0",
   "description": "Online Youtube Downloader",
-  "main": "index.js",
+  "main": "backend/server.js",
   "scripts": {
-    "build": "cd frontend && npm install && npm run build",
     "dev": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
   },
   "author": "",
